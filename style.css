@@ -8,6 +8,8 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 30px;
+  animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
 }
 
 .container {
@@ -24,6 +26,14 @@ h1 {
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 0 1px 15px 0 white, 0 1px 15px 0 white;
+  border: solid white;
 }
 
 .album-cover {
@@ -82,4 +92,84 @@ h1 {
 
 audio {
   display: none;
+}
+
+
+
+@keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+
+  20% {
+    color: #4fc1e9;
+  }
+
+  40% {
+    color: #ffce54;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
+
+@-moz-keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+
+  20% {
+    color: #4fc1e9;
+  }
+
+  40% {
+    color: #ffce54;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
+
+@-webkit-keyframes Color {
+  0% {
+    color: #a0d468;
+  }
+
+  20% {
+    color: #4fc1e9;
+  }
+
+  40% {
+    color: #ffce54;
+  }
+
+  60% {
+    color: #fc6e51;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
 }

@@ -1,7 +1,8 @@
 const lagu = [
     ["Kuning", "rumahsakit", "363K", "15K", "cover/kuning.png", "audio/kuning.mp3"],
     ["Tarot", ".Feast", "574K", "28K", "cover/tarot.png", "audio/tarot.mp3"],
-    ["luther", "Kendrick Lamar, SZA", "230M", "34M", "cover/luther.png", "audio/luther.mp3"]
+    ["luther", "Kendrick Lamar, SZA", "230M", "34M", "cover/luther.png", "audio/luther.mp3"],
+    // ["Serana"]
   ];
 
   const konten = document.getElementById("isi");
